@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;;
+    background-color: #FCA59F;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.445);
+    font-size: 4.5em;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+#main {
+    height: 520px;
+    width: 450px;
+    background-color: #000000;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.247);
+    padding: 50px;
+    text-align: center;
+    
+}
+
+#main h2 {
+    color: #bb84c5a2;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#main p {
+    color: #cca5d3e7;
+    font-size: 1.1em;
+    padding: 10px 0px 5px 0px;
+    margin: 0px 0px 5px 0px;
+}
+
+
+#main .espaco {
+    padding: 15px;
+    border-radius: 4px;
+    background-color:#dbd4ddec;
+    margin: 5px 0px 25px 0px;
+}
+
+
+#botaocalcular {
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 60px;
+    width: 120px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #b01a33;
+    color: lightgray;
+}
+
+#botaocalcular:hover {
+    background-color: #d01d3a;
+    color: white;
+}
+
+#botaolimpar {
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 60px;
+    width: 120px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #a76ca5;
+    color:#191911;
+}
+
+#botaolimpar:hover {
+    background-color: #a960a7;
+    color: black;
+}
+
+
+#resultado {
+    visibility: hidden;
+    height: 520px;
+    width: 450px;
+    padding: 50px;
+    background-color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-weight: normal;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.247);  
+         
+}
+
+#resultado h2 {
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #b64678d8;
+    text-align: center;
+}
+
+#resultado p {
+    padding: 10px;
+    margin: 15px; 
+    color: #f7526e;
+    font-size: 1em;
+    text-align: center;
+}
+
+#resultado p.confira {
+    color: #eb5f9e;
+    font-size: 0.9em;
+}
+
+#resultado table {
+    font-weight: normal;
+    font-size: 0.8em;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 360px;
+    margin: auto;
+    border-collapse: collapse;
+    
+}
+
+#resultado table td {
+    padding: 5px;
+    border-top: 1px solid white;  
+    text-align: center; 
+}
+
+footer {
+    font-size: 0.7em;
+    
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin: 50px 0px 0px 0px;
+}
+

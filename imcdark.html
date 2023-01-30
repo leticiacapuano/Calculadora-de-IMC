@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/imcdark.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de IMC</h1>
+    </header>
+    <section>
+        <div class="container">
+            <div id="main">
+                <form action="get">
+                    <h2>Digite seus dados abaixo:</h2>
+                        <p><label for="txtpeso">Peso (Kg):</label></p>
+                        <input type="number" name="ipeso" id="peso" class="espaco" placeholder="Exemplo: 70,2">
+                        <p><label for="txtaltura">Altura (m):</label></p>
+                        <input type="number" name="ialtura" id="altura" class="espaco" placeholder="Exemplo: 1,60">
+                        <p><input type="button" value="Calcular" id="botaocalcular"> <input type="button" value="Limpar" id="botaolimpar"></p>
+                </form>
+            </div>
+            <div id="resultado">
+                <h2>Resultado:</h2>
+                <p id="resultadoIMC"></p>
+                  <table>
+                    <p class="confira">Confira de acordo com a tabela abaixo:</p>
+                    <thead>
+                        <tr>
+                            <th>IMC</th>
+                            <th>Classificação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="row1">
+                            <td>Abaixo de 17</td>
+                            <td>Muito abaixo do peso</td>
+                        </tr>
+                        <tr id="row2">
+                            <td>Entre 17 e 18.5</td>
+                            <td>Abaixo do peso</td>
+                        </tr>
+                        <tr id="row3">
+                            <td>Entre 18.5 e 25</td>
+                            <td>Peso ideal</td>
+                        </tr>
+                        <tr id="row4">
+                            <td>Entre 25 e 30</td>
+                            <td>Sobrepeso</td>
+                        </tr>
+                        <tr id="row5">
+                            <td>Entre 30 e 35</td>
+                            <td>Obesidade</td>
+                        </tr>
+                        <tr id="row6">
+                            <td>Entre 35 e 40</td>
+                            <td>Obesidade Severa</td>
+                        </tr>
+                        <tr id="row7">
+                            <td>Acima de 40</td>
+                            <td>Obesidade Mórbida</td>
+                        </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div> 
+    </section>
+    <footer>Desenvolvido por: Letícia Capuano</footer>
+</body>
+</html>
